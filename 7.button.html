@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- buttons -->
+      <button class="btn btn-primary" type="button">primary</button>
+      <button class="btn btn-secondary" type="button">secondary</button>
+      <button class="btn btn-success" type="button">success</button>
+      <button class="btn btn-info" type="button">info</button>
+      <button class="btn btn-warning" type="button">warning</button>
+      <button class="btn btn-danger" type="button">danger</button>
+      <button class="btn btn-light" type="button">light</button>
+      <button class="btn btn-dark" type="button">dark</button>
+      <button class="btn btn-link" type="button">link</button>
+      <br /><br />
+
+      <!-- button tags types -->
+      <a href="#" role="button" class="btn btn-primary">link</a>
+      <button class="btn btn-success">button</button>
+      <input type="button" class="btn btn-light" value="Input" />
+      <input type="submit" class="btn btn-warning" value="submit" />
+      <input type="reset" class="btn btn-info" value="reset" />
+
+      <br /><br />
+      <!-- outline buttons -->
+      <button class="btn btn-outline-primary" type="button">
+        primary outline
+      </button>
+      <button class="btn btn-outline-secondary" type="button">
+        secondary outline
+      </button>
+      <button class="btn btn-outline-success" type="button">
+        success outline
+      </button>
+      <button class="btn btn-outline-info" type="button">info outline</button>
+      <button class="btn btn-outline-warning" type="button">
+        warning outline
+      </button>
+      <button class="btn btn-outline-danger" type="button">
+        danger outline
+      </button>
+      <button class="btn btn-outline-light" type="button">light outline</button>
+      <button class="btn btn-outline-dark" type="button">dark outline</button>
+      <br /><br />
+      <!-- button sizes -->
+      <button class="btn btn-primary btn-lg">
+        <i class="fas fa-user">large button</i>
+      </button>
+      <br /><br />
+      <button class="btn btn-primary btn-sm" type="button">small button</button>
+      <button class="btn btn-primary btn-block" type="button">
+        block level
+      </button>
+      <!-- states -->
+      <button class="btn btn-primary" type="button">regular button</button>
+      <button class="btn btn-primary active" type="button">
+        active button
+      </button>
+      <button class="btn btn-primary disabled" type="button">
+        disabled button
+      </button>
+      <button class="btn btn-primary" type="button" data-toggle="button">
+        toggle button
+      </button>
+      <br /><br />
+      <!-- button groups -->
+      <div class="btn-group">
+        <button class="btn btn-primary" type="button">left</button>
+        <button class="btn btn-secondary" type="button">middle</button>
+        <button class="btn btn-primary" type="button">right</button>
+      </div>
+      <br /><br />
+      <!-- button toolbar -->
+      <div class="btn-toolbar">
+        <div class="btn-group mr-2">
+          <button class="btn btn-primary" type="button">1</button>
+
+          <button class="btn btn-primary" type="button">2</button>
+          <button class="btn btn-primary" type="button">3</button>
+          <button class="btn btn-primary" type="button">4</button>
+        </div>
+        <div class="btn-group mr-2">
+          <button class="btn btn-primary" type="button">5</button>
+          <button class="btn btn-primary" type="button">6</button>
+          <button class="btn btn-primary" type="button">7</button>
+          <button class="btn btn-primary" type="button">8</button>
+        </div>
+
+        <div class="btn-group mr-2">
+          <button class="btn btn-primary" type="button">9</button>
+        </div>
+      </div>
+
+      <!-- vertical group -->
+      <div class="btn btn-group-vertical">
+        <button class="btn btn-primary" type="button">top</button>
+        <button class="btn btn-primary" type="button">middle</button>
+        <button class="btn btn-primary" type="button">bottom</button>
+      </div>
+
+      <!-- button dropdowns -->
+      <div class="dropdown">
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+          >
+            my dropdown
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">link one</a>
+            <a href="#" class="dropdown-item">link two</a>
+            <a href="#" class="dropdown-item">link three</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- splite dropdown -->
+      <div class="btn-group">
+        <button class="btn btn-primary" type="button">my button</button>
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-toggle="dropdown"
+        >
+          <span>toggle dropdown</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">link one</a>
+          <a href="#" class="dropdown-item">link two</a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">link three</a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
